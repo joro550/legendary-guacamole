@@ -1,10 +1,8 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Kinesis.Controllers;
 using Kinesis.Core.Handlers;
-using Kinesis.Streams;
+using System.Threading.Tasks;
 using Kinesis.Streams.Handlers;
 using Microsoft.AspNetCore.Http;
 

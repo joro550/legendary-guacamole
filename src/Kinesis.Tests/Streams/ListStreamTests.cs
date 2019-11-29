@@ -1,5 +1,6 @@
 using Xunit;
 using Kinesis.Persistence;
+using Kinesis.Persistence.Adapters;
 using Kinesis.Streams.Handlers;
 using Kinesis.Streams.Models;
 using Kinesis.Tests.Persistence;

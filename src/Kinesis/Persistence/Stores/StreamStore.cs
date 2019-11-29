@@ -2,6 +2,11 @@
 {
     public interface IStreamStore
     {
+
+    }
+
+    public class StreamStore : IStreamStore
+    {
         
     }
 }

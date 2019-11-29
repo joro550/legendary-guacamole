@@ -1,4 +1,5 @@
 using Kinesis.Persistence;
+using Kinesis.Persistence.Adapters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
@@ -18,7 +19,7 @@ namespace Kinesis
 
         public void ConfigureServices(IServiceCollection services)
         {
-            KinesisStore.Instance = new EfStoreAdapter(ContextFactory.CreateContext(builder =>
+            KinesisStore.Instance = new StoreAdapter(ContextFactory.CreateContext(builder =>
                 builder.UseSqlite("")));
 
             services.AddControllers();

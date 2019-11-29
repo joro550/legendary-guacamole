@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
 
 namespace Kinesis.Persistence
 {
@@ -10,15 +9,5 @@ namespace Kinesis.Persistence
             var options = createOptions(new ContextOptionsBuilder());
             return new KinesisContext(options.CreateContextOptions());
         }
-    }
-
-    public class ContextOptionsBuilder
-    {
-
-    }
-
-    public interface IContextOptions
-    {
-        DbContextOptions<KinesisContext> CreateContextOptions();
     }
 }

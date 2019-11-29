@@ -6,7 +6,7 @@ namespace Kinesis.Persistence
     {
         public static KinesisStore Instance { get; set; }
 
+        public abstract IShardStore GetShardStore();
         public abstract IStreamStore GetStreamStore();
-
     }
 }

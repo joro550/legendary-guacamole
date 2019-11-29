@@ -1,4 +1,4 @@
-﻿namespace Kinesis.Persistence
+﻿namespace Kinesis.Persistence.Adapters
 {
     public static class ContextOptionsBuilderExtensions
     {

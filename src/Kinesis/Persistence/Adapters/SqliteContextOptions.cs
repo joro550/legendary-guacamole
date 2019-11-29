@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Kinesis.Persistence
+namespace Kinesis.Persistence.Adapters
 {
     public class SqliteContextOptions : IContextOptions
     {
