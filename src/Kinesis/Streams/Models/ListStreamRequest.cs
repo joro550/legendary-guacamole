@@ -1,6 +1,6 @@
-﻿namespace Kinesis.Streams
+﻿namespace Kinesis.Streams.Models
 {
-    public class ListStreamModel
+    public class ListStreamRequest
     {
         public int MaxItems { get; set; }
         public int PageSize { get; set; }

@@ -1,8 +1,8 @@
-﻿using Kinesis.Core;
-using Kinesis.Core.Handlers;
+﻿using Kinesis.Core.Handlers;
 using Kinesis.Core.Models;
+using Kinesis.Streams.Models;
 
-namespace Kinesis.Streams
+namespace Kinesis.Streams.Handlers
 {
     public class CreateStreamHandler : BaseHandler<CreateStreamModel>
     {

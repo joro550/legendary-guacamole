@@ -1,4 +1,4 @@
-﻿namespace Kinesis.Streams
+﻿namespace Kinesis.Streams.Models
 {
     public class CreateStreamModel
     {

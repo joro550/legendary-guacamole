@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Kinesis.Controllers;
 using Kinesis.Core.Handlers;
 using Kinesis.Streams;
+using Kinesis.Streams.Handlers;
 using Microsoft.AspNetCore.Http;
 
 namespace Kinesis.Core

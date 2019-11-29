@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using Kinesis.Core;
 using Kinesis.Core.Handlers;
 
-namespace Kinesis.Streams
+namespace Kinesis.Streams.Models
 {
     public class ListStreamResponse : IHandlerResponse
     {

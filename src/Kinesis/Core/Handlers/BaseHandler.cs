@@ -9,11 +9,11 @@ namespace Kinesis.Core.Handlers
 
     public abstract class BaseHandler<TInputModel> : IRequestHandler
     {
-        protected TInputModel _model;
+        protected TInputModel Model;
 
         protected BaseHandler(string bodyContent)
         {
-            _model = JsonConvert.DeserializeObject<TInputModel>(bodyContent);
+            Model = JsonConvert.DeserializeObject<TInputModel>(bodyContent);
         }
 
         public abstract IHandlerResponse Execute();
