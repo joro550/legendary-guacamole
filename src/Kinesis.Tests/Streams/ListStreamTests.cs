@@ -13,7 +13,7 @@ namespace Kinesis.Tests.Streams
         [Fact]
         public void Test1()
         {
-            KinesisStore.Instance = new EfStoreAdapter(CreateContext(builder =>
+            KinesisStore.Instance = new StoreAdapter(CreateContext(builder =>
                 builder.UseInMemoryDatabase("KinesisDatabase")));
 
             var listStreamRequest = new ListStreamRequest();
